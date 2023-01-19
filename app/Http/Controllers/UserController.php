@@ -12,11 +12,13 @@ class UserController extends Controller
     {
 
         $incomingFields = $request->validate([
-            'username' => ['required', 'min:3', 'max: 20', Rule::unique('users', 'username')],
+            'username' => ['required', 'min:3', 'max:20', Rule::unique('users', 'username')],
             'email' => ['required', 'email', Rule::unique('users', 'email')],
-            // 'password' => ['required', 'min: 6', 'confirmed']
-            'password' => 'required|min:6|confirmed'
+            'password' => ['required', 'min:6', 'confirmed']
         ]);
+
+        $incomingFields['password'] = bcrypt($incomingFields['password']);
+
         User::create($incomingFields);
         return 'Hello from Register function';
     }
