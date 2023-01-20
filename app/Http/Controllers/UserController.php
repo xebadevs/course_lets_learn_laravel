@@ -15,12 +15,15 @@ class UserController extends Controller
             'loginpassword' => 'required'
         ]);
 
-        if (auth()->attempt(['username' => $incomingFields['loginusername'], 'password' => $incomingFields['loginpassword']])) {
+        if (auth()->attempt([
+            'username' => $incomingFields['loginusername'],
+            'password' => $incomingFields['loginpassword']
+        ])) {
+            $request->session()->regenerate();
             return 'Congrats!!!';
         } else {
             return 'Sorry!!!';
         }
-        
     }
 
 
