@@ -15,7 +15,7 @@ use App\Http\Controllers\UserController;
 |
 */
 
-Route::get('/', [ExampleController::class, "homePage"]);
+Route::get('/', [UserController::class, "showCorrectHomepage"]);
 
 Route::get('/about', [ExampleController::class, "aboutPage"]);
 

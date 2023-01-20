@@ -8,6 +8,15 @@ use Illuminate\Validation\Rule;
 
 class UserController extends Controller
 {
+    public function showCorrectHomepage()
+    {
+        if (auth()->check()) {
+            return view('homePageFeed');
+        } else {
+            return view('homepage');
+        }
+    }
+
     public function login(Request $request)
     {
         $incomingFields = $request->validate([
