@@ -8,12 +8,18 @@ use Illuminate\Validation\Rule;
 
 class UserController extends Controller
 {
+    public function logout()
+    {
+        auth()->logout();
+        return redirect('/')->with('error', 'You have successfully logged out');
+    }
+
     public function showCorrectHomepage()
     {
         if (auth()->check()) {
             return view('homePageFeed');
         } else {
-            return view('homepage');
+            return view('homePage');
         }
     }
 
@@ -29,16 +35,14 @@ class UserController extends Controller
             'password' => $incomingFields['loginpassword']
         ])) {
             $request->session()->regenerate();
-            return 'Congrats!!!';
+            return redirect('/')->with('success', 'You have successfully logged in');
         } else {
-            return 'Sorry!!!';
+            return redirect('/')->with('failure', 'Invalid login');
         }
     }
 
-
     public function register(Request $request)
     {
-
         $incomingFields = $request->validate([
             'username' => ['required', 'min:3', 'max:20', Rule::unique('users', 'username')],
             'email' => ['required', 'email', Rule::unique('users', 'email')],
@@ -47,7 +51,8 @@ class UserController extends Controller
 
         $incomingFields['password'] = bcrypt($incomingFields['password']);
 
-        User::create($incomingFields);
-        return 'Hello from Register function';
+        $user = User::create($incomingFields);
+        auth()->login($user);
+        return redirect('/')->with('success', 'Thank you for creating an account');
     }
 }
