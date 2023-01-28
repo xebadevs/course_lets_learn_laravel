@@ -10,7 +10,7 @@ class UserController extends Controller
 {
     public function profile(User $profile)
     {
-        return view('profilePosts', [
+        return view('profile-posts', [
             'username' => $profile->username, 
             'posts' => $profile->posts()->latest()->get(),
             'postCount' => $profile->posts()->count()
@@ -26,9 +26,9 @@ class UserController extends Controller
     public function showCorrectHomepage()
     {
         if (auth()->check()) {
-            return view('homePageFeed');
+            return view('home-page-feed');
         } else {
-            return view('homePage');
+            return view('home-page');
         }
     }
 

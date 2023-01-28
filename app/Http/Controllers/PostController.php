@@ -13,7 +13,7 @@ class PostController extends Controller
     {
         $post['body'] = Str::markdown($post->body);
         
-        return view('singlePost', ['post' => $post]);
+        return view('single-post', ['post' => $post]);
     }
 
     public function storeNewPost(Request $request)
@@ -34,6 +34,6 @@ class PostController extends Controller
 
     public function showCreateForm()
     {
-        return view('createPost');
+        return view('create-post');
     }
 }
