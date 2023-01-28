@@ -9,6 +9,13 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
+    public function delete(Post $post)
+    {
+        $post->delete();
+
+        return redirect('/profile/' . auth()->user()->username)->with('success', 'Post successfully deleted');
+    }
+
     public function showSinglePost(Post $post)
     {
         $post['body'] = Str::markdown($post->body);

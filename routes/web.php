@@ -25,6 +25,7 @@ Route::post('/logout', [UserController::class, 'logout'])->middleware('auth');
 Route::get('/create-post', [PostController::class, 'showCreateForm'])->middleware('auth');
 Route::get('/post/{post}', [PostController::class, 'showSinglePost']);
 Route::post('/create-post', [PostController::class, 'storeNewPost'])->middleware('auth');
+Route::delete('/post/{post}', [PostController::class, 'delete'])->middleware('can:delete,post');
 
 // Profile related routes
 Route::get('/profile/{profile:username}', [UserController::class, 'profile']);
