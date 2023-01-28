@@ -10,7 +10,11 @@ class UserController extends Controller
 {
     public function profile(User $profile)
     {
-        return view('profilePosts', ['username' => $profile->username]);
+        return view('profilePosts', [
+            'username' => $profile->username, 
+            'posts' => $profile->posts()->latest()->get(),
+            'postCount' => $profile->posts()->count()
+        ]);
     }
 
     public function logout()
