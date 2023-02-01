@@ -1,13 +1,14 @@
 <x-layout>
 
     <div class="container py-md-5 container--narrow">
-        <form action="/post/{{$post->id}}" method="POST">
-            @method('PUT')
+        <form action="/post/{{ $post->id }}" method="POST">
+            <p><small><strong><a href="/post/{{ $post->id }}">&laquo; Back to post permalink</a></strong></small></p>
             @csrf
+            @method('PUT')
             <div class="form-group">
                 <label for="post-title" class="text-muted mb-1"><small>Title</small></label>
-                <input name="title" id="post-title" class="form-control form-control-lg form-control-title" type="text"
-                    placeholder="" autocomplete="off" value="{{ old('title', $post->title) }}" />
+                <input name="title" id="post-title" class="form-control form-control-lg form-control-title"
+                    type="text" placeholder="" autocomplete="off" value="{{ old('title', $post->title) }}" />
                 @error('title')
                     <p class="m-0 small alert alert-danger shadow-sm">{{ $message }}</p>
                 @enderror
@@ -24,5 +25,5 @@
             <button class="btn btn-primary">Save Changes</button>
         </form>
     </div>
-    
+
 </x-layout>
