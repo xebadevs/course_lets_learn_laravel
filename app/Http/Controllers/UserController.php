@@ -18,10 +18,21 @@ class UserController extends Controller
 
         $user = auth()->user();
 
-        $filename = $user->id . '-' . uniqid() . 'jpg';
+        $filename = $user->id . '-' . uniqid() . '.jpg';
 
         $imgData = Image::make($request->file('avatar'))->fit(120)->encode('jpg');
         Storage::put('public/avatars/' . $filename, $imgData);
+
+        $oldAvatar = $user->avatar;
+
+        $user->avatar = $filename;
+        $user->save();
+
+        if ($oldAvatar != "/fallback-avatar.jpg") {
+            Storage::delete(str_replace("/storage/", "public/", $oldAvatar));
+        }
+
+        return back()->with('success', 'Congrats on the new avatar.');
     }
 
     public function showAvatarForm()
@@ -32,6 +43,7 @@ class UserController extends Controller
     public function profile(User $profile)
     {
         return view('profile-posts', [
+            'avatar' => $profile->avatar,
             'username' => $profile->username, 
             'posts' => $profile->posts()->latest()->get(),
             'postCount' => $profile->posts()->count()
