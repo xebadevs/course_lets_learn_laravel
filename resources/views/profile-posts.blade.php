@@ -5,7 +5,7 @@
             <img class="avatar-small" src="{{ $avatar }}" />
             {{ $username }}
             @auth
-                @if (!$currentlyFollowing and auth()->user()->id != $username)
+                @if (!$currentlyFollowing AND auth()->user()->username != $username)
                     <form class="ml-2 d-inline" action="/create-follow/{{ $username }}" method="POST">
                         @csrf
                         <button class="btn btn-primary btn-sm">Follow <i class="fas fa-user-plus"></i></button>
@@ -13,7 +13,7 @@
                 @endif
 
                 @if ($currentlyFollowing)
-                    <form class="ml-2 d-inline" action="/create-follow/{{ $username }}" method="POST">
+                    <form class="ml-2 d-inline" action="/remove-follow/{{ $username }}" method="POST">
                         @csrf
                         <button class="btn btn-danger btn-sm">Stop Following <i class="fas fa-user-times"></i></button>
                     </form>
