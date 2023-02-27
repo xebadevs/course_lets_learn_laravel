@@ -52,7 +52,41 @@ class UserController extends Controller
         return view('profile-posts', [
             'currentlyFollowing' => $currentlyFollowing,
             'avatar' => $profile->avatar,
-            'username' => $profile->username, 
+            'username' => $profile->username,
+            'posts' => $profile->posts()->latest()->get(),
+            'postCount' => $profile->posts()->count()
+        ]);
+    }
+
+    public function profileFollowers(User $profile)
+    {
+        $currentlyFollowing = 0;
+
+        if (auth()->check()) {
+            $currentlyFollowing = Follow::where([['user_id', '=', auth()->user()->id], ['followeduser', '=', $profile->id]])->count();
+        }
+
+        return view('profile-followers', [
+            'currentlyFollowing' => $currentlyFollowing,
+            'avatar' => $profile->avatar,
+            'username' => $profile->username,
+            'posts' => $profile->posts()->latest()->get(),
+            'postCount' => $profile->posts()->count()
+        ]);
+    }
+
+    public function profileFollowing(User $profile)
+    {
+        $currentlyFollowing = 0;
+
+        if (auth()->check()) {
+            $currentlyFollowing = Follow::where([['user_id', '=', auth()->user()->id], ['followeduser', '=', $profile->id]])->count();
+        }
+
+        return view('profile-following', [
+            'currentlyFollowing' => $currentlyFollowing,
+            'avatar' => $profile->avatar,
+            'username' => $profile->username,
             'posts' => $profile->posts()->latest()->get(),
             'postCount' => $profile->posts()->count()
         ]);

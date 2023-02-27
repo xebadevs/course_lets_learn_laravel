@@ -16,7 +16,7 @@ use App\Http\Controllers\FollowController;
 |
 */
 
-Route::get('/admins-only', function() {
+Route::get('/admins-only', function () {
     return 'Only admins should be able to see this page.';
 })->middleware('can:visitAdminPages');
 
@@ -42,3 +42,5 @@ Route::put('/post/{post}', [PostController::class, 'actuallyUpdate'])->middlewar
 
 // Profile related routes
 Route::get('/profile/{profile:username}', [UserController::class, 'profile']);
+Route::get('/profile/{profile:username}/followers', [UserController::class, 'profileFollowers']);
+Route::get('/profile/{profile:username}/following', [UserController::class, 'profileFollowing']);
