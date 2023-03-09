@@ -9,9 +9,11 @@
 
 ## Source
 
-Material from "Let's learn Laravel - A guide for beginners",  
-published on Udemy,  
-by Brad Schiff
+**Let's learn Laravel - A guide for beginners**, \
+by **Brad Schiff**, \
+published on **Udemy**.
+
+<br>
 
 ## License
 
