@@ -131,3 +131,34 @@
 [] Profile SPA - Part II
 
 
+---
+
+
+### 11. EMAIL
+
+[] Sending email \
+[] Adding jobs to the queue \
+[] Scheduling tasks
+
+
+---
+
+
+### 12. CACHE
+
+[] Cache
+
+
+---
+
+
+### 13. API AUTHENTICATION (SANCTUM)
+
+[] API endpoints - Part I \
+[] API endpoints - Part II
+
+
+---
+
+
+### 14. GOING LIVE PRACTICE
