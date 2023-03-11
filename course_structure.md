@@ -102,3 +102,32 @@
 [] Document page title & post component
 
 
+---
+
+
+### 8. SEARCH
+
+[] Search (Back-End) \
+[] Asset bundling vite setup
+
+
+---
+
+
+### 9. CHAT
+
+[] Events & listeners \
+[] Important note for windows users \
+[] Broadcasting - Part I \
+[] Broadcasting - Part II
+
+
+---
+
+
+### 10. STAYING ORGANIZED
+
+[] Profile SPA - Part I \
+[] Profile SPA - Part II
+
+
