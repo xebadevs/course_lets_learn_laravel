@@ -162,3 +162,22 @@
 
 
 ### 14. GOING LIVE PRACTICE
+
+[] Going live \
+[] Docker practice - Part I\
+[] Docker practice - Part II \
+[] Finishing our Docker practice
+
+
+---
+
+
+### 15. DEPLOYING TO ACTUAL VPS
+
+[] Creating the cloud VPS \
+[] Using a domain \
+[] Using SSH keys instead of passwords \
+[] The environment that Laravel needs \
+[] Using Git to push files to our VPS - Part I \
+[] Using Git to push files to our VPS - Part II \
+[] HTTPS encryption & final details
