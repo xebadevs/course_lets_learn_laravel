@@ -54,7 +54,9 @@ class UserController extends Controller
             'currentlyFollowing' => $currentlyFollowing,
             'avatar' => $profile->avatar,
             'username' => $profile->username,
-            'postCount' => $profile->posts()->count()
+            'postCount' => $profile->posts()->count(),
+            'followerCount' => $profile->followerCount()->count(),
+            'followingCount' => $profile->followingTheseUsers()->count()
         ]);
     }
 
