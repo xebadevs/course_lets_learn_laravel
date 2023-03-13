@@ -81,7 +81,7 @@ class UserController extends Controller
         $this->getSharedData($profile);
 
         return view('profile-following', [
-            'posts' => $profile->posts()->latest()->get(),
+            'following' => $profile->followingTheseUsers()->latest()->get(),
         ]);
     }
 
