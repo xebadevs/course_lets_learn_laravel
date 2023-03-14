@@ -1,7 +1,5 @@
 # Course Structure
 
-
-
 ### 1. INTRODUCTION
 
 [x] Welcome to the course \
@@ -13,11 +11,7 @@
 [x] Mac Composer \
 [x] Actually using Composer
 
-
-
 ---
-
-
 
 ### 2. LARAVEL INTRODUCTION
 
@@ -28,11 +22,7 @@
 [x] What is a view - What is Blade \
 [x] Reducing duplication in Blade
 
-
-
 ---
-
-
 
 ### 3. DATABASE BASICS
 
@@ -42,22 +32,14 @@
 [x] Submit HTML form into database \
 [x] Validation & details
 
-
-
 ---
-
-
 
 ### 4. AUTHENTICATION BASICS
 
 [x] Logging in \
 [x] Logging out & misc details
 
-
-
 ---
-
-
 
 ### 5. BLOG POSTS
 
@@ -72,11 +54,7 @@
 [x] How to setup moderator permissions \
 [x] Admin only pages (what is a Gate)
 
-
-
 ---
-
-
 
 ### 6. USER UPLOADED FILES (AVATAR)
 
@@ -84,11 +62,7 @@
 [x] Resizing images with PHP \
 [x] Using avatar in DB & Blade
 
-
-
 ---
-
-
 
 ### 7. USERS FOLLOWING EACH OTHER
 
@@ -96,23 +70,19 @@
 [x] Removing a follow \
 [x] Profile pages - Part I \
 [x] Profile pages - Part II \
-[] List of users \
+[x] List of users \
 [] Homepage feed of posts \
 [] Pagination \
 [] Document page title & post component
 
-
 ---
-
 
 ### 8. SEARCH
 
 [] Search (Back-End) \
 [] Asset bundling vite setup
 
-
 ---
-
 
 ### 9. CHAT
 
@@ -121,18 +91,14 @@
 [] Broadcasting - Part I \
 [] Broadcasting - Part II
 
-
 ---
-
 
 ### 10. STAYING ORGANIZED
 
 [] Profile SPA - Part I \
 [] Profile SPA - Part II
 
-
 ---
-
 
 ### 11. EMAIL
 
@@ -140,26 +106,20 @@
 [] Adding jobs to the queue \
 [] Scheduling tasks
 
-
 ---
-
 
 ### 12. CACHE
 
 [] Cache
 
-
 ---
-
 
 ### 13. API AUTHENTICATION (SANCTUM)
 
 [] API endpoints - Part I \
 [] API endpoints - Part II
 
-
 ---
-
 
 ### 14. GOING LIVE PRACTICE
 
@@ -168,9 +128,7 @@
 [] Docker practice - Part II \
 [] Finishing our Docker practice
 
-
 ---
-
 
 ### 15. DEPLOYING TO ACTUAL VPS
 
