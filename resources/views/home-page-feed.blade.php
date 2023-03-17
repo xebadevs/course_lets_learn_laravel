@@ -7,7 +7,8 @@
                 @foreach ($posts as $post)
                     <a href="/post/{{ $post->id }}" class="list-group-item list-group-item-action">
                         <img class="avatar-tiny" src="{{ $sharedData['avatar'] }}" />
-                        <strong>{{ $post->title }}</strong> on {{ $post->created_at->format('n/j/Y') }}
+                        <strong>{{ $post->title }}</strong> <span class="text-muted small"> by {{ $post->user->username }}
+                            on {{ $post->created_at->format('n/j/Y') }} </span>
                     </a>
                 @endforeach
             </div>
