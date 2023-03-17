@@ -93,10 +93,12 @@ class UserController extends Controller
         return redirect('/')->with('error', 'You have successfully logged out');
     }
 
-    public function showCorrectHomepage()
+    public function showCorrectHomepage(User $profile)
     {
+        $this->getSharedData($profile);
+
         if (auth()->check()) {
-            return view('home-page-feed');
+            return view('home-page-feed', ['posts' => auth()->user()->feedPosts()->latest()->get()]);
         } else {
             return view('home-page');
         }
