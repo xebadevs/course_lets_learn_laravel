@@ -71,7 +71,7 @@
 [x] Profile pages - Part I \
 [x] Profile pages - Part II \
 [x] List of users \
-[] Homepage feed of posts \
+[x] Homepage feed of posts \
 [] Pagination \
 [] Document page title & post component
 
