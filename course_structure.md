@@ -72,7 +72,7 @@
 [x] Profile pages - Part II \
 [x] List of users \
 [x] Homepage feed of posts \
-[] Pagination \
+[x] Pagination \
 [] Document page title & post component
 
 ---
