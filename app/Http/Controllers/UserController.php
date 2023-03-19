@@ -98,7 +98,7 @@ class UserController extends Controller
         $this->getSharedData($profile);
 
         if (auth()->check()) {
-            return view('home-page-feed', ['posts' => auth()->user()->feedPosts()->latest()->get()]);
+            return view('home-page-feed', ['posts' => auth()->user()->feedPosts()->latest()->paginate()]);
         } else {
             return view('home-page');
         }
