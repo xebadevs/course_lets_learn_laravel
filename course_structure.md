@@ -73,7 +73,7 @@
 [x] List of users \
 [x] Homepage feed of posts \
 [x] Pagination \
-[] Document page title & post component
+[x] Document page title & post component
 
 ---
 
