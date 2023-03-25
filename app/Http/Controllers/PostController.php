@@ -12,6 +12,7 @@ class PostController extends Controller
     public function search($term)
     {
         $post = Post::search($term)->get();
+        $post->load('user:id,username,avatar');
 
         return $post;
     }
