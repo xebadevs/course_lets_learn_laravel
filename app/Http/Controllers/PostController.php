@@ -9,6 +9,11 @@ use Illuminate\Http\Request;
 
 class PostController extends Controller
 {
+    public function search($term)
+    {
+        // code
+    }
+
     public function actuallyUpdate(Post $post, Request $request)
     {
         $incomingFields = $request->validate([
@@ -39,7 +44,7 @@ class PostController extends Controller
     public function showSinglePost(Post $post)
     {
         $post['body'] = Str::markdown($post->body);
-        
+
         return view('single-post', ['post' => $post]);
     }
 
