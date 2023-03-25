@@ -11,7 +11,7 @@ class PostController extends Controller
 {
     public function search($term)
     {
-        // code
+        // code  
     }
 
     public function actuallyUpdate(Post $post, Request $request)
