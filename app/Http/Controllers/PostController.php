@@ -11,7 +11,9 @@ class PostController extends Controller
 {
     public function search($term)
     {
-        // code  
+        $post = Post::search($term)->get();
+
+        return $post;
     }
 
     public function actuallyUpdate(Post $post, Request $request)
