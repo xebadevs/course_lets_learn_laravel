@@ -21,8 +21,6 @@
                     menu bar to find content written by people with similar interests and then follow them.</p>
             </div>
         @endunless
-
-
     </div>
 
 </x-layout>
