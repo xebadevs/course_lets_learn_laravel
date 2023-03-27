@@ -80,7 +80,7 @@
 ### 8. SEARCH
 
 [x] Search (Back-End) \
-[] Asset bundling vite setup
+[x] Asset bundling vite setup
 
 ---
 
