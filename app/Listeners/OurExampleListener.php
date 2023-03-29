@@ -27,6 +27,6 @@ class OurExampleListener
      */
     public function handle(OurExampleEvent $event)
     {
-        Log::debug("Our custom event and listener just worked.");
+        Log::debug("The user {$event->username} just performed {$event->action}.");
     }
 }

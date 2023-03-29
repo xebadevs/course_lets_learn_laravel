@@ -19,9 +19,10 @@ class OurExampleEvent
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($theEvent)
     {
-        //
+        $this->username = $theEvent['username'];
+        $this->action = $theEvent['action'];
     }
 
     /**
