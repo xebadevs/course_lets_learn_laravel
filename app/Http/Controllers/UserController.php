@@ -90,8 +90,8 @@ class UserController extends Controller
 
     public function logout()
     {
-        auth()->logout();
         event(new OurExampleEvent(['username' => auth()->user()->username, 'action' => 'logout']));
+        auth()->logout();
         return redirect('/')->with('error', 'You have successfully logged out');
     }
 
