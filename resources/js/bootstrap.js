@@ -31,7 +31,6 @@ window.Echo = new Echo({
     ? import.meta.env.VITE_PUSHER_HOST
     : `ws-${import.meta.env.VITE_PUSHER_APP_CLUSTER}.pusher.com`,
   wsPort: import.meta.env.VITE_PUSHER_PORT ?? 80,
-  cluster: import.meta.env.VITE_PUSHER_APP_CLUSTER,
   wssPort: import.meta.env.VITE_PUSHER_PORT ?? 443,
   forceTLS: (import.meta.env.VITE_PUSHER_SCHEME ?? "https") === "https",
   enabledTransports: ["ws", "wss"]
