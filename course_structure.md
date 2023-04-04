@@ -87,9 +87,9 @@
 ### 9. CHAT
 
 [x] Events & listeners \
-[] Important note for windows users \
-[] Broadcasting - Part I \
-[] Broadcasting - Part II
+[x] Important note for windows users \
+[x] Broadcasting - Part I \
+[x] Broadcasting - Part II
 
 ---
 
