@@ -1,7 +1,7 @@
 <x-layout>
 
     <div class="container py-md-5 container--narrow">
-        @unless($posts->isEmpty())
+        @unless ($posts->isEmpty())
             <h2 class="text-center mb-4">The latest from those you follow</h2>
             <div class="list-group">
                 @foreach ($posts as $post)

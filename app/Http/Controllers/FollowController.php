@@ -8,7 +8,8 @@ use Illuminate\Http\Request;
 
 class FollowController extends Controller
 {
-    public function createFollow(User $user) {
+    public function createFollow(User $user)
+    {
 
         // You cannot follow yourself
         if ($user->id == auth()->user()->id) {
@@ -30,7 +31,8 @@ class FollowController extends Controller
         return back()->with('success', 'User successfully followed');
     }
 
-    public function removeFollow(User $user) {
+    public function removeFollow(User $user)
+    {
         Follow::where([['user_id', '=', auth()->user()->id], ['followeduser', '=', $user->id]])->delete();
         return back()->with('success', 'User successfully unfollowed');
     }
