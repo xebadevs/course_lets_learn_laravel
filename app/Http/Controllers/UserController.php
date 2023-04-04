@@ -70,6 +70,11 @@ class UserController extends Controller
         ]);
     }
 
+    public function profileRaw(User $profile)
+    {
+        return response()->json(['theHTML' => 'Imagine this is the posts HTML.', 'docTitle' => $profile->username . 'Profile']);
+    }
+
     public function profileFollowers(User $profile)
     {
         $this->getSharedData($profile);

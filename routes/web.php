@@ -48,6 +48,10 @@ Route::get('/profile/{profile:username}', [UserController::class, 'profile']);
 Route::get('/profile/{profile:username}/followers', [UserController::class, 'profileFollowers']);
 Route::get('/profile/{profile:username}/following', [UserController::class, 'profileFollowing']);
 
+Route::get('/profile/{profile:username}/raw', [UserController::class, 'profileRaw']);
+Route::get('/profile/{profile:username}/followers/raw', [UserController::class, 'profileFollowersRaw']);
+Route::get('/profile/{profile:username}/following/raw', [UserController::class, 'profileFollowingRaw']);
+
 // Chat route
 Route::post('/send-chat-message', function (Request $request) {
     $formFields = $request->validate([
