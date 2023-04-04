@@ -118,12 +118,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Meilisearch Configuration
+    | MeiliSearch Configuration
     |--------------------------------------------------------------------------
     |
-    | Here you may configure your Meilisearch settings. Meilisearch is an open
+    | Here you may configure your MeiliSearch settings. MeiliSearch is an open
     | source search engine with minimal configuration. Below, you can state
-    | the host and key information for your own Meilisearch installation.
+    | the host and key information for your own MeiliSearch installation.
     |
     | See: https://docs.meilisearch.com/guides/advanced_guides/configuration.html
     |
@@ -132,11 +132,6 @@ return [
     'meilisearch' => [
         'host' => env('MEILISEARCH_HOST', 'http://localhost:7700'),
         'key' => env('MEILISEARCH_KEY', null),
-        'index-settings' => [
-            // 'users' => [
-            //     'filterableAttributes'=> ['id', 'name', 'email'],
-            // ],
-        ],
     ],
 
 ];

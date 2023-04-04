@@ -1,5 +1,5 @@
 <div class="list-group">
-    @foreach ($post as $p)
-        <x-post :post="$p" hideAuthor />
-    @endforeach
-</div>
+        @foreach($posts as $post)
+        <x-post :post="$post" hideAuthor />
+        @endforeach
+      </div>
