@@ -95,7 +95,7 @@
 
 ### 10. STAYING ORGANIZED
 
-[] Profile SPA - Part I \
+[x] Profile SPA - Part I \
 [] Profile SPA - Part II
 
 ---
