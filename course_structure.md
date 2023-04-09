@@ -102,7 +102,7 @@
 
 ### 11. EMAIL
 
-[] Sending email \
+[x] Sending email \
 [] Adding jobs to the queue \
 [] Scheduling tasks
 
