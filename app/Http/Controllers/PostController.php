@@ -2,20 +2,24 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\NewPostEmail;
 use App\Models\Post;
 use Illuminate\Support\Str;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class PostController extends Controller
 {
-    public function search($term) {
+    public function search($term)
+    {
         $posts = Post::search($term)->get();
         $posts->load('user:id,username,avatar');
         return $posts;
         //return Post::where('title', 'LIKE', '%' . $term . '%')->orWhere('body', 'LIKE', '%' . $term . '%')->with('user:id,username,avatar')->get();
     }
 
-    public function actuallyUpdate(Post $post, Request $request) {
+    public function actuallyUpdate(Post $post, Request $request)
+    {
         $incomingFields = $request->validate([
             'title' => 'required',
             'body' => 'required'
@@ -29,21 +33,25 @@ class PostController extends Controller
         return back()->with('success', 'Post successfully updated.');
     }
 
-    public function showEditForm(Post $post) {
+    public function showEditForm(Post $post)
+    {
         return view('edit-post', ['post' => $post]);
     }
 
-    public function delete(Post $post) {
+    public function delete(Post $post)
+    {
         $post->delete();
         return redirect('/profile/' . auth()->user()->username)->with('success', 'Post successfully deleted.');
     }
 
-    public function viewSinglePost(Post $post) {
+    public function viewSinglePost(Post $post)
+    {
         $post['body'] = strip_tags(Str::markdown($post->body), '<p><ul><ol><li><strong><em><h3><br>');
         return view('single-post', ['post' => $post]);
     }
 
-    public function storeNewPost(Request $request) {
+    public function storeNewPost(Request $request)
+    {
         $incomingFields = $request->validate([
             'title' => 'required',
             'body' => 'required'
@@ -55,10 +63,13 @@ class PostController extends Controller
 
         $newPost = Post::create($incomingFields);
 
+        Mail::to('xebadevs@gmail.com')->send(new NewPostEmail());
+
         return redirect("/post/{$newPost->id}")->with('success', 'New post successfully created.');
     }
 
-    public function showCreateForm() {
+    public function showCreateForm()
+    {
         return view('create-post');
     }
 }
