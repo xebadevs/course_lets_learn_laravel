@@ -63,7 +63,10 @@ class PostController extends Controller
 
         $newPost = Post::create($incomingFields);
 
-        Mail::to('xebadevs@gmail.com')->send(new NewPostEmail());
+        Mail::to(auth()->user()->email)->send(new NewPostEmail([
+            'name' => auth()->user()->username,
+            'title' => $newPost->title
+        ]));
 
         return redirect("/post/{$newPost->id}")->with('success', 'New post successfully created.');
     }
