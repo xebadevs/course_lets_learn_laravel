@@ -103,8 +103,8 @@
 ### 11. EMAIL
 
 [x] Sending email \
-[] Adding jobs to the queue \
-[] Scheduling tasks
+[x] Adding jobs to the queue \
+[x] Scheduling tasks
 
 ---
 
