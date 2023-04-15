@@ -60,12 +60,13 @@ class PostController extends Controller
         $incomingFields['body'] = strip_tags($incomingFields['body']);
         $incomingFields['user_id'] = auth()->id();
 
+        $newPost = Post::create($incomingFields);
+
         dispatch(new SendNewPostEmail([
             'sendTo' => auth()->user()->email,
             'name' => auth()->user()->name,
             'title' => $newPost->title
         ]));
-        $newPost = Post::create($incomingFields);
 
         return redirect("/post/{$newPost->id}")->with('success', 'New post successfully created.');
     }
