@@ -62,6 +62,7 @@ class PostController extends Controller
 
         dispatch(new SendNewPostEmail([
             'sendTo' => auth()->user()->email,
+            'name' => auth()->user()->name,
             'title' => $newPost->title
         ]));
         $newPost = Post::create($incomingFields);
