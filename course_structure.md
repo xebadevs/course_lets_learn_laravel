@@ -110,7 +110,7 @@
 
 ### 12. CACHE
 
-[] Cache
+[x] Cache
 
 ---
 
