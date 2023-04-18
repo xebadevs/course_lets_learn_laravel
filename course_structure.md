@@ -116,8 +116,8 @@
 
 ### 13. API AUTHENTICATION (SANCTUM)
 
-[] API endpoints - Part I \
-[] API endpoints - Part II
+[x] API endpoints - Part I \
+[x] API endpoints - Part II
 
 ---
 
