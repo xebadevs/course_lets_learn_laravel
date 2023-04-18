@@ -137,12 +137,12 @@ class UserController extends Controller
         ]);
 
         if (auth()->attempt($incomingFields)) {
-            $user = User::where('username', $incomingFields['username']);
+            $user = User::where('username', $incomingFields['username'])->first();
             $token = $user->createToken('ourapptoken')->plainTextToken;
             return $token;
         }
 
-        return '';
+        return 'Invalid credentials';
     }
 
     public function login(Request $request)
