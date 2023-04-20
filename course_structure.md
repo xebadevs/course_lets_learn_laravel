@@ -123,9 +123,9 @@
 
 ### 14. GOING LIVE PRACTICE
 
-[] Going live \
-[] Docker practice - Part I\
-[] Docker practice - Part II \
+[x] Going live \
+[x] Docker practice - Part I\
+[x] Docker practice - Part II \
 [] Finishing our Docker practice
 
 ---
