@@ -126,7 +126,7 @@
 [x] Going live \
 [x] Docker practice - Part I\
 [x] Docker practice - Part II \
-[] Finishing our Docker practice
+[x] Finishing our Docker practice
 
 ---
 
