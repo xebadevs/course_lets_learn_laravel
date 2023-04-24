@@ -132,7 +132,7 @@
 
 ### 15. DEPLOYING TO ACTUAL VPS
 
-[] Creating the cloud VPS \
+[x] Creating the cloud VPS \
 [] Using a domain \
 [] Using SSH keys instead of passwords \
 [] The environment that Laravel needs \
