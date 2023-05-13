@@ -133,9 +133,9 @@
 ### 15. DEPLOYING TO ACTUAL VPS
 
 [x] Creating the cloud VPS \
-[] Using a domain \
-[] Using SSH keys instead of passwords \
-[] The environment that Laravel needs \
-[] Using Git to push files to our VPS - Part I \
-[] Using Git to push files to our VPS - Part II \
-[] HTTPS encryption & final details
+[x] Using a domain \
+[x] Using SSH keys instead of passwords \
+[x] The environment that Laravel needs \
+[x] Using Git to push files to our VPS - Part I \
+[x] Using Git to push files to our VPS - Part II \
+[x] HTTPS encryption & final details
