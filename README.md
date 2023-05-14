@@ -9,18 +9,31 @@
 
 ## Course structure
 
-### 1. INTRODUCTION
-
-[x] Welcome to the course\
-[x] Text editor\
-[x] Windows installing PHP\
-[x] Mac installing PHP\
-[x] PHP the language itself\
-[x] Windows Composer\
-[x] Mac Composer\
-[x] Actually using Composer
+| 1. INTRODUCTION                                           |
+|-----------------------------------------------------------|
+| [x] Welcome to the course                                 |
+| [x] Text editor                                           |
+| [x] Windows installing PHP                                |
+| [x] Mac installing PHP                                    |
+| [x] PHP the language itself                               |
+| [x] Windows Composer                                      |
+| [x] Mac Composer                                          |
+| [x] Actually using Composer                               |
 
 <br>
+
+| 2. LARAVEL INTRODUCTION                                   |
+|-----------------------------------------------------------|
+| [x] Using Composer to create a Laravel project            |
+| [x] Routes and URLs                                       |
+| [x] (text) How to use reference zip files in this course  |
+| [x] What is a Controller                                  |
+| [x] What is a view - What is Blade                        |
+| [x] Reducing duplication in Blade                         |
+
+
+
+
 
 ## License
 
