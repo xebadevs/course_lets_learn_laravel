@@ -23,6 +23,23 @@
 |                             | Submit HTML form into database                 |                                      |
 |                             | Validation & details                           |                                      |
 
+<br>
+
+| 4. AUTHENTICATION BASICS      | 5. BLOG POSTS                                   | 6. USER UPLOADED FILES (AVATAR)        |
+|-------------------------------|-------------------------------------------------|----------------------------------------|
+| Logging in                    | Blog posts                                      | Letting users upload files             |
+| Logging out & misc details    | Single blog post URL - Part I                   | Resizing images with PHP               |
+|                               | Single blog post URL - Part II                  | Using avatar in DB & Blade             |
+|                               | What is markdown                                |                                        |
+|                               | What is middleware                              |                                        |
+|                               | User profile (list of their blog post)          |                                        |
+|                               | Updating & deleting posts                       |                                        |
+|                               | Policy middleware                               |                                        |
+|                               | How to setup moderator permissions              |                                        |
+|                               | Admin only pages (what is a Gate)               |                                        |
+
+
+
 1️⃣ <strong>INTRODUCTION</strong>\
 ✔️ Welcome to the course\
 ✔️ Text editor\
