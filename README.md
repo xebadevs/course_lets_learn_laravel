@@ -31,7 +31,7 @@
 
 <br>
 
-3️⃣ <strong>DATABASE BASICS<strong>\
+3️⃣ <strong>DATABASE BASICS</strong>\
 ✔️ Install MySQL (Windows)\
 ✔️ Install MySQL (Mac)\
 ✔️ Connecting Laravel to our database\
@@ -57,7 +57,26 @@
 ✔️ Policy middleware\
 ✔️ How to setup moderator permissions\
 ✔️ Admin only pages (what is a Gate)
-  
+
+<br>
+
+6️⃣<strong>USER UPLOADED FILES (AVATAR)</strong>\
+✔️ Letting users upload files\
+✔️ Resizing images with PHP\
+✔️ Using avatar in DB & Blade
+
+<br>
+
+7️⃣<strong>USER FOLLOWING EACH OTHER</strong>\
+✔️ Saving a follow into our database\
+✔️ Removing a follow\
+✔️ Profile pages - Part I\
+✔️ Profile pages - Part II\
+✔️ List of users\
+✔️ Homepage feed of posts\
+✔️ Pagination\
+✔️ Document page title & post component
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
