@@ -38,6 +38,26 @@
 ✔️ Submit HTML form into database\
 ✔️ Validation & details
 
+<br>
+
+4️⃣<strong>AUTHENTICATION BASICS</strong>\
+✔️ Logging in\
+✔️ Logging out & misc details
+  
+<br>
+  
+5️⃣<strong>BLOG POSTS</strong>\
+✔️ Blog posts\
+✔️ Single blog post URL - Part I\
+✔️ Single blog post URL - Part II\
+✔️ What is markdown\
+✔️ What is middleware\
+✔️ User profile (list of their blog post)\
+✔️ Updating & deleting posts\
+✔️ Policy middleware\
+✔️ How to setup moderator permissions\
+✔️ Admin only pages (what is a Gate)
+  
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
