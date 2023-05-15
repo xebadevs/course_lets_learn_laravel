@@ -53,93 +53,11 @@
 
 <br>
 
-1️⃣ <strong>INTRODUCTION</strong>\
-✔️ Welcome to the course\
-✔️ Text editor\
-✔️ Windows installing PHP\
-✔️ Mac installing PHP\
-✔️ PHP the language itself\
-✔️ Windows Composer\
-✔️ Mac Composer\
-✔️ Actually using Composer
-
-<br>
-
-2️⃣ <strong>LARAVEL INTRODUCTION</strong>\
-✔️ Using Composer to create a Laravel project\
-✔️ Routes and URLs\
-✔️ How to use reference zip files in this course\
-✔️ What is a Controller\
-✔️ What is a view - What is Blade\
-✔️ Reducing duplication in Blade
-
-<br>
-
-3️⃣ <strong>DATABASE BASICS</strong>\
-✔️ Install MySQL (Windows)\
-✔️ Install MySQL (Mac)\
-✔️ Connecting Laravel to our database\
-✔️ Submit HTML form into database\
-✔️ Validation & details
-
-<br>
-
-4️⃣ <strong>AUTHENTICATION BASICS</strong>\
-✔️ Logging in\
-✔️ Logging out & misc details
-  
-<br>
-  
-5️⃣ <strong>BLOG POSTS</strong>\
-✔️ Blog posts\
-✔️ Single blog post URL - Part I\
-✔️ Single blog post URL - Part II\
-✔️ What is markdown\
-✔️ What is middleware\
-✔️ User profile (list of their blog post)\
-✔️ Updating & deleting posts\
-✔️ Policy middleware\
-✔️ How to setup moderator permissions\
-✔️ Admin only pages (what is a Gate)
-
-<br>
-
-6️⃣ <strong>USER UPLOADED FILES (AVATAR)</strong>\
-✔️ Letting users upload files\
-✔️ Resizing images with PHP\
-✔️ Using avatar in DB & Blade
-
-<br>
-
-7️⃣ <strong>USER FOLLOWING EACH OTHER</strong>\
-✔️ Saving a follow into our database\
-✔️ Removing a follow\
-✔️ Profile pages - Part I\
-✔️ Profile pages - Part II\
-✔️ List of users\
-✔️ Homepage feed of posts\
-✔️ Pagination\
-✔️ Document page title & post component
-
-<br>
-
-8️⃣ <strong>SEARCH</strong>\
-✔️ Search (BackEnd)\
-✔️ Asset bundling vite setup
-
-<br>
-
-9️⃣ <strong>CHAT</strong>\
-✔️ Events & Listeners\
-✔️ Broadcasting (Part I)\
-✔️ Broadcasting (Part II)
-
-<br>
-
-🔟 <strong>STAYING ORGANIZED</strong>\
-
-
-
+| 10. STAYING ORGANIZED     | 11. EMAIL                          | 12. CACHE     |
+|---------------------------|------------------------------------|---------------|
+| Profile SPA (Part I)      | Sending Email                      | Cache         |
+| Profile SPA (Part II)     | Adding Jobs to the Queue           |               |
+|                           | Scheduling tasks | UPDATE NOTION   |               |
 
 
 ## License
