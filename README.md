@@ -31,7 +31,15 @@
 | [x] What is a view - What is Blade                        |
 | [x] Reducing duplication in Blade                         |
 
+<br>
 
+| 2. DATABASE BASICS                                        |
+|-----------------------------------------------------------|
+| [x] Install MySQL (Windows)                               |
+| [x] Install MySQL (Mac)                                   |
+| [x] Connecting Laravel to our database                    |
+| [x] Submit HTML form into database                        |
+| [x] Validation & details                                  |
 
 
 
