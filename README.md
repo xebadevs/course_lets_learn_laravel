@@ -29,6 +29,15 @@
 ✔️ What is a view - What is Blade\
 ✔️ Reducing duplication in Blade
 
+<br>
+
+3️⃣ <strong>DATABASE BASICS<strong>\
+✔️ Install MySQL (Windows)\
+✔️ Install MySQL (Mac)\
+✔️ Connecting Laravel to our database\
+✔️ Submit HTML form into database\
+✔️ Validation & details
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
