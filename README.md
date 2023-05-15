@@ -38,7 +38,20 @@
 |                               | How to setup moderator permissions              |                                        |
 |                               | Admin only pages (what is a Gate)               |                                        |
 
+<br>
 
+| 7. USERS FOLLOWING EACH OTHER         | 8. SEARCH                  | 9. CHAT                  |
+|---------------------------------------|----------------------------|--------------------------|
+| Saving a follow into our database     | Search (BackEnd)           | Events & Listeners       |
+| Removing a follow                     | Asset bundling vite setup  | Broadcasting (Part I)    |
+| Profile pages - Part I                |                            | Broadcasting (Part II)   |
+| Profile pages - Part II               |                            |                          |
+| List of users                         |                            |                          |
+| Homepage feed of posts                |                            |                          |
+| Pagination                            |                            |                          |
+| Document page title & post component  |                            |                          |
+
+<br>
 
 1️⃣ <strong>INTRODUCTION</strong>\
 ✔️ Welcome to the course\
