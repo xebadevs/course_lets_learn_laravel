@@ -48,9 +48,20 @@
 | [x] Logging in                                            |
 | [x] Logging out & misc details                            |
 
+<br>
 
-
-
+| 5. BLOG POSTS                                             |
+|-----------------------------------------------------------|
+| [x]Blog posts                                             |
+| [x] Single blog post URL - Part I                         |
+| [x] Single blog post URL - Part II                        |
+| [x] What is markdown                                      |
+| [x] PWhat is middleware                                   |
+| [x] User profile (list of their blog post)                |
+| [x] Updating & deleting posts                             |
+| [x] Policy middleware                                     |
+| [x] How to setup moderator permissions                    |
+| [x] Admin only pages (what is a Gate)                     |
 
 ## License
 
