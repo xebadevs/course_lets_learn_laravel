@@ -33,13 +33,22 @@
 
 <br>
 
-| 2. DATABASE BASICS                                        |
+| 3. DATABASE BASICS                                        |
 |-----------------------------------------------------------|
 | [x] Install MySQL (Windows)                               |
 | [x] Install MySQL (Mac)                                   |
 | [x] Connecting Laravel to our database                    |
 | [x] Submit HTML form into database                        |
 | [x] Validation & details                                  |
+
+<br>
+
+| 4. AUTHENTICATION BASICS                                  |
+|-----------------------------------------------------------|
+| [x] Logging in                                            |
+| [x] Logging out & misc details                            |
+
+
 
 
 
