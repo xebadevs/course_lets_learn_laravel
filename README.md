@@ -59,6 +59,19 @@
 | Profile SPA (Part II)     | Adding Jobs to the Queue           |               |
 |                           | Scheduling tasks | UPDATE NOTION   |               |
 
+<br>
+
+| 13. API AUTHENTICATION     | 14. GOING LIVE PRACTICE         | 15. DEPLOYING TO ACTUAL VPS                  |
+|---------------------------|----------------------------------|----------------------------------------------|
+| API Endpoints (Part I)    | Going live                       | Creating the cloud VPS                       |
+| API Endpoints (Part II)   | Docker Practice (Part I)         | Using a domain                               |
+|                           | Docker Practice (Part II)        | Using SSH keys instead of passwords          |
+|                           | Finishing our Docker Practice    | The environment that Laravel needs           |
+|                           |                                  | Using GIT to push files to our VPS (Part I)  |
+|                           |                                  | Using GIT to push files to our VPS (Part II) |
+|                           |                                  | HTTPS encryption and final details           |
+
+<br>
 
 ## License
 
