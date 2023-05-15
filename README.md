@@ -9,6 +9,20 @@
 
 ## Course structure
 
+| 1. INTRODUCTION             | 2. LARAVEL INTRODUCTION                        | 3. DATABASE BASICS                   |
+|-----------------------------|------------------------------------------------|--------------------------------------|
+| Welcome to the course       | Using Composer to create a Laravel project     | Install MySQL (Windows)              |
+| Text editor                 | Routes and URLs                                | Install MySQL (Mac)                  |
+| Windows installing PHP      | How to use reference zip files in this course  | Connecting Laravel to our database   |
+| Mac installing PHP          | What is a Controller                           | Submit HTML form into database       |
+| PHP the language itself     | What is a view - What is Blade                 | Validation & details                 |
+| Windows Composer            | Reducing duplication in Blade                  |                                      |
+| Mac Composer                | Install MySQL (Windows)                        |                                      |
+| Actually using Composer     | Install MySQL (Mac)                            |                                      |
+|                             | Connecting Laravel to our database             |                                      |
+|                             | Submit HTML form into database                 |                                      |
+|                             | Validation & details                           |                                      |
+
 1️⃣ <strong>INTRODUCTION</strong>\
 ✔️ Welcome to the course\
 ✔️ Text editor\
