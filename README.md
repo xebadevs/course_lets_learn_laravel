@@ -40,13 +40,13 @@
 
 <br>
 
-4️⃣<strong>AUTHENTICATION BASICS</strong>\
+4️⃣ <strong>AUTHENTICATION BASICS</strong>\
 ✔️ Logging in\
 ✔️ Logging out & misc details
   
 <br>
   
-5️⃣<strong>BLOG POSTS</strong>\
+5️⃣ <strong>BLOG POSTS</strong>\
 ✔️ Blog posts\
 ✔️ Single blog post URL - Part I\
 ✔️ Single blog post URL - Part II\
@@ -60,14 +60,14 @@
 
 <br>
 
-6️⃣<strong>USER UPLOADED FILES (AVATAR)</strong>\
+6️⃣ <strong>USER UPLOADED FILES (AVATAR)</strong>\
 ✔️ Letting users upload files\
 ✔️ Resizing images with PHP\
 ✔️ Using avatar in DB & Blade
 
 <br>
 
-7️⃣<strong>USER FOLLOWING EACH OTHER</strong>\
+7️⃣ <strong>USER FOLLOWING EACH OTHER</strong>\
 ✔️ Saving a follow into our database\
 ✔️ Removing a follow\
 ✔️ Profile pages - Part I\
@@ -76,6 +76,27 @@
 ✔️ Homepage feed of posts\
 ✔️ Pagination\
 ✔️ Document page title & post component
+
+<br>
+
+8️⃣ <strong>SEARCH</strong>\
+✔️ Search (BackEnd)\
+✔️ Asset bundling vite setup
+
+<br>
+
+9️⃣ <strong>CHAT</strong>\
+✔️ Events & Listeners\
+✔️ Broadcasting (Part I)\
+✔️ Broadcasting (Part II)
+
+<br>
+
+🔟 <strong>STAYING ORGANIZED</strong>\
+
+
+
+
 
 ## License
 
