@@ -25,8 +25,6 @@
 
 <br>
 
-<div align="center">
-
 | 4. AUTHENTICATION BASICS      | 5. BLOG POSTS                                   | 6. USER UPLOADED FILES (AVATAR)        |
 |-------------------------------|-------------------------------------------------|----------------------------------------|
 | ✔️ Logging in                    | ✔️ Blog posts                                      | ✔️ Letting users upload files             |
@@ -40,9 +38,7 @@
 |                               | ✔️ How to setup moderator permissions              |                                        |
 |                               | ✔️ Admin only pages (what is a Gate)               |                                        |
 
-</div>
 <br>
-<div align="right">
 
 | 7. USERS FOLLOWING EACH OTHER         | 8. SEARCH                  | 9. CHAT                  |
 |---------------------------------------|----------------------------|--------------------------|
@@ -55,16 +51,13 @@
 | ✔️ Pagination                            |                            |                          |
 | ✔️ Document page title & post component  |                            |                          |
 
-</div>
 <br>
-<div align="center">
 
 | 10. STAYING ORGANIZED     | 11. EMAIL                          | 12. CACHE     |
 |---------------------------|------------------------------------|---------------|
 | ✔️ Profile SPA (Part I)  | ✔️ Sending Email                      | ✔️ Cache         |
 | ✔️ Profile SPA (Part II) | ✔️ Adding Jobs to the Queue           |               |
 
-</div>
 <br>
 
 | 13. API AUTHENTICATION     | 14. GOING LIVE PRACTICE         | 15. DEPLOYING TO ACTUAL VPS                  |
@@ -77,8 +70,6 @@
 |                           |                                  | ✔️ Using GIT to push files to our VPS (Part II) |
 |                           |                                  | ✔️ HTTPS encryption and final details           |
 
-</div>
-  
 <br>
 
 ## License
